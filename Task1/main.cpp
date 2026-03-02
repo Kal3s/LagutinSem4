@@ -136,7 +136,6 @@ int main() {
 
     cout << "Чтение чисел из файла " << filename << ":" << std::endl;
     countZerosInStream(file, "файле " + filename);
-
     file.close();
     
     return 0;
